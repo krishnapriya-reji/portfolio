@@ -28,7 +28,7 @@ const Home = () => {
                      highly responsive, and user-centric web applications. Skilled in translating complex design concepts into 
                      seamless digital experiences, ensuring optimal performance across devices. Proficient in modern frontend technologies,
                      UI/UX best practices, and interactive design principles.  </p>
-                    <a href="/public/Krishnapriya-resume.pdf" className="btn" >Download CV</a>
+                    <a href="/Krishnapriya-resume.pdf" className="btn" >Download CV</a>
             </div>
             </div>
     </div>
