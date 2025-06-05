@@ -122,28 +122,7 @@ const About = () => {
                           <div className="skill-percent">94%</div>
                         </div>
                       </div>
-                      <div className="skill-item padd-15">
-                        <h5>Express</h5>
-                        <div className="progress">
-                          <div className="progress-in" style={{ width: "94%" }}></div>
-                          <div className="skill-percent">94%</div>
-                        </div>
-                      </div>
-                      <div className="skill-item padd-15">
-                        <h5>Node</h5>
-                        <div className="progress">
-                          <div className="progress-in" style={{ width: "94%" }}></div>
-                          <div className="skill-percent">94%</div>
-                        </div>
-                      </div>
-                      
-                      <div className="skill-item padd-15">
-                        <h5>MongoDB</h5>
-                        <div className="progress">
-                          <div className="progress-in" style={{ width: "94%" }}></div>
-                          <div className="skill-percent">94%</div>
-                        </div>
-                      </div>
+                     
 
                       <div className="skill-item padd-15">
                         <h5>Wix</h5>
