@@ -9,6 +9,14 @@ import Image8 from "../assets/portfolio/w7.png";
 import Image9 from "../assets/portfolio/w8.png";
 import Image10 from "../assets/portfolio/w9.png";
 import Image11 from "../assets/portfolio/w10.png";
+import Image12 from "../assets/portfolio/fig1.png";
+import Image13 from "../assets/portfolio/fig2.png";
+import Image14 from "../assets/portfolio/fig3.png";
+import Image15 from "../assets/portfolio/fig4.png";
+import Image16 from "../assets/portfolio/fig5.png";
+import Image17 from "../assets/portfolio/fig6.png";
+
+
 
 const images = [
   { src: Image2, alt: "Project 1" },
@@ -23,6 +31,15 @@ const images = [
   { src: Image11, alt: "Project 10" },
 ];
 
+const figmaimages = [
+  { src: Image12, alt: "Project 1" },
+  { src: Image13, alt: "Project 2" },
+  { src: Image14, alt: "Project 3" },
+  { src: Image15, alt: "Project 4" },
+  { src: Image16, alt: "Project 5" },
+  { src: Image17, alt: "Project 6" }
+];
+
 const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio">
@@ -34,7 +51,7 @@ const Portfolio = () => {
         </div>
         <div className="row">
           <div className="portfolio-heading padd-15">
-            <h2>My Last Projects:</h2>
+            <h2>WEB DESIGNS:</h2>
           </div>
         </div>
         <div className="row">
@@ -48,6 +65,26 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
+
+         <div className="row">
+          <div className="portfolio-heading padd-15">
+            <h2>FIGMA DESIGNS:</h2>
+          </div>
+        </div>
+        <div className="row">
+          {figmaimages.map((image, index) => (
+            <div className="portfolio-item padd-15" key={index}>
+              <div className="portfolio-item-inner shadow-dark">
+                <div className="portfolio-img">
+                  <img src={image.src} alt={image.alt} />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+
+
       </div>
     </section>
   );
