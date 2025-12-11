@@ -61,7 +61,7 @@ const Contact = () => {
                             <div className="icon">
                                 <i className="fa fa-map-marker-alt"></i>
                                 <h4>Location</h4>
-                                <p>Alappuzha</p>
+                                <p>Alappuzha, Kerala, India</p>
                             </div>
                         </div>
 
